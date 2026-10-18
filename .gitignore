@@ -1,0 +1,28 @@
+# VM images and local snapshots
+*.vdi
+*.vmdk
+*.vhd
+*.qcow2
+*.ova
+*.ovf
+*.vbox
+*.iso
+
+# Sensitive captures, credentials and local logs
+*.pcap
+*.pcapng
+*.key
+*.pem
+*.p12
+*.pfx
+.env
+.env.*
+!*.env.example
+*.log
+
+# Local files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__pycache__/
